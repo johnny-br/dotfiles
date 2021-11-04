@@ -17,7 +17,7 @@ shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=1000
-HISTFILESIZE=2000
+HISTFILESIZE=12000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -119,3 +119,9 @@ fi
 export PATH="$PATH:/home/john/android-studio/bin"
 export PATH="$PATH:/home/john/flutter/bin"
 export PATH="$PATH:/home/john/flutter"
+
+alias python='python3';
+alias py='python3';
+alias pip='pip3';
+alias install='sudo apt-get install'
+
